@@ -11,9 +11,20 @@ config_version=5
 [application]
 
 config/name="Poly Survive"
+config/description="Poly Survive: A wave-based game in a polygon-themed world."
+config/version="0.1"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
 
 [dotnet]
 
 project/assembly_name="Poly Survive"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
